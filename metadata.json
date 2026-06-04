@@ -1,0 +1,6 @@
+{
+  "name": "Kiran's 3D and AI Portfolio",
+  "description": "An interactive, highly polished showcase portfolio of 3D artistry, game development assets, and AI-powered workflow integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

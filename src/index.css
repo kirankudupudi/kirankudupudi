@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;850&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+:root {
+  --theme-bg: #0d0d0c;
+  --theme-text: #ffffff;
+  --theme-primary: #e5c158;
+  --theme-primary-hover: #ffd700;
+  --theme-secondary: #9e2a40;
+  --theme-secondary-hover: #b8354c;
+  --theme-dark-accent: #5a0e1b;
+  --theme-dark-accent-rgb: 90, 14, 27;
+  --theme-button-gradient-from: #5a0e1b;
+  --theme-button-gradient-to: #9e2a40;
+  --theme-button-hover-from: #751425;
+  --theme-button-hover-to: #b8354c;
+  --theme-glow: 229, 193, 88;
+  --theme-glow-crimson: 158, 42, 64;
+  --theme-card-bg: #131312;
+  --theme-border: rgba(229, 193, 88, 0.1);
+  --theme-arc: 229, 193, 88;
+}
+
+[data-theme="ironman"] {
+  --theme-bg: #050a0f;
+  --theme-text: #e0f8ff;
+  --theme-primary: #00f0ff; /* Arc reactor cyan */
+  --theme-primary-hover: #ffffff; /* Arc core */
+  --theme-secondary: #e11d48; /* Red armor detailing */
+  --theme-secondary-hover: #fbbf24; /* Gold armor flash */
+  --theme-dark-accent: #021a2c; /* Interior tech blue */
+  --theme-dark-accent-rgb: 2, 26, 44;
+  --theme-button-gradient-from: #991b1b;
+  --theme-button-gradient-to: #5c0f14;
+  --theme-button-hover-from: #b91c1c;
+  --theme-button-hover-to: #7f1d1d;
+  --theme-glow: 0, 240, 255; /* Arc Blue */
+  --theme-glow-crimson: 225, 29, 72;
+  --theme-card-bg: rgba(5, 14, 23, 0.85); /* Tech HUD panels */
+  --theme-border: rgba(0, 240, 255, 0.4); /* Glowing panel edges */
+  --theme-arc: 0, 240, 255;
+}
+
+[data-theme="ironman"] .bg-theme-bg {
+  background-image: radial-gradient(circle at center, #0a111a 0%, #030609 100%);
+}
+
+.stark-hud {
+  position: relative;
+}
+
+[data-theme="ironman"] .stark-hud::before,
+[data-theme="ironman"] .stark-hud::after {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-color: rgba(0, 240, 255, 0.9);
+  border-style: solid;
+  transition: all 0.3s ease;
+  pointer-events: none;
+  z-index: 10;
+}
+
+[data-theme="ironman"] .stark-hud::before {
+  top: -1px;
+  left: -1px;
+  border-width: 2px 0 0 2px;
+}
+
+[data-theme="ironman"] .stark-hud::after {
+  bottom: -1px;
+  right: -1px;
+  border-width: 0 2px 2px 0;
+}
+
+[data-theme="ironman"] .stark-hud:hover::before,
+[data-theme="ironman"] .stark-hud:hover::after {
+  width: 100%;
+  height: 100%;
+  opacity: 0.15;
+}
+
+[data-theme="ironman"] .stark-hex {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.03;
+  /* Replaced SVG with simple gradient grid to avoid compositor explosion */
+  background-image: linear-gradient(rgba(0,240,255,0.05) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(0,240,255,0.05) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --animate-spin-slow: spin-slow 20s linear infinite;
+  --animate-spin-reverse-slow: spin-reverse-slow 30s linear infinite;
+  
+  --color-theme-bg: var(--theme-bg);
+  --color-theme-text: var(--theme-text);
+  --color-theme-primary: var(--theme-primary);
+  --color-theme-primary-hover: var(--theme-primary-hover);
+  --color-theme-secondary: var(--theme-secondary);
+  --color-theme-secondary-hover: var(--theme-secondary-hover);
+  --color-theme-dark-accent: var(--theme-dark-accent);
+  --color-theme-card-bg: var(--theme-card-bg);
+  --color-theme-border: var(--theme-border);
+  
+  @keyframes spin-slow {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes spin-reverse-slow {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--theme-bg);
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--theme-bg);
+  color: #ffffff;
+  overflow-x: hidden;
+  transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Custom glow borders and general scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--theme-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--theme-card-bg);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--theme-dark-accent);
+}
+
