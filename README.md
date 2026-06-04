@@ -1,7 +1,7 @@
 <div align="center">
 
-# ⚡ KIRAN KUDUPUDI
-### **CEO @ INVISIONXR STUDIOS** &bull; **ART LEAD** &bull; **3D GENERALIST** &bull; **GENAI INTEGRATOR**
+# ⚡ KIRAN KUMAR K
+### **CEO @ INVISIONXRSTUDIOS** &bull; **ART LEAD** &bull; **3D GENERALIST** &bull; **GENAI INTEGRATOR**
 
 *Synthesizing traditional high-end 3D artistry with cutting-edge real-time engines and custom agentic AI pipelines.*
 
@@ -137,12 +137,12 @@ Here is a comprehensive record of key projects reflecting different specialized 
 ```text
  ___________________________________________________________
 |                                                           |
-|   INVISIONXR STUDIOS PVT LTD                              |
+|   INVISIONXRSTUDIOS PVT LTD                               |
 |   "Immersive Realities & Architectural Innovation"        |
 |                                                           |
 |                                                           |
-|                             KIRAN KUDUPUDI                |
-|                             Chief Executive Officer       |
+|                             KIRAN KUMAR K                 |
+|                             Chief Executive Officer        |
 |                             Art Lead & 3D Generalist      |
 |                                                           |
 |                                                           |
@@ -151,7 +151,7 @@ Here is a comprehensive record of key projects reflecting different specialized 
 |                                                           |
 |   [A] ArtStation:   artstation.com/kiranprince9297        |
 |   [Y] YouTube:      youtube.com/@kirangameartist9297      |
-|   [I] LinkedIn:     linkedin.com/in/kiran-kudupudi-b69a69   |
+|   [I] LinkedIn:     linkedin.com/in/kiran-kudupudi-b69a69 |
 |                                                           |
 |   "Build with passion. Optimize with precision."          |
 |___________________________________________________________|
