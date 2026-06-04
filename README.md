@@ -8,6 +8,7 @@
 [![ArtStation](https://img.shields.io/badge/ArtStation-141414?style=for-the-badge&logo=artstation&logoColor=13AFF0)](https://www.artstation.com/kiranprince9297)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kiran-kudupudi-b69a6928/)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@kirangameartist9297)
+[![Website](https://img.shields.io/badge/Website-Portfolio-blue?style=for-the-badge&logo=github&logoColor=white)](https://kirankudupudi.github.io/kirankudupudi/)
 
 ---
 </div>
