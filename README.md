@@ -131,7 +131,12 @@ Here is a comprehensive record of key projects reflecting different specialized 
 
 ---
 
-## 📇 Executive Communication Box / Digital Visiting Card
+## � License
+This project is licensed under the [MIT License](./LICENSE).
+
+---
+
+## �📇 Executive Communication Box / Digital Visiting Card
 
 <div align="center">
 
