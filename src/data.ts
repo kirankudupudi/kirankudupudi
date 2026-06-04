@@ -134,7 +134,7 @@ export const projectsData: Project[] = [
     title: "MedievalFeast",
     description: "This video was created utilizing free assets from Unreal Engine, Mixamo characters, and Quixel content. It aims to demonstrate advanced environment building.",
     category: "Environment",
-    imageUrl: "/projects/medieval.jpg",
+    imageUrl: "projects/medieval.jpg",
     details: "This video was created utilizing free assets from Unreal Engine, Mixamo characters, and Quixel content. It aims to demonstrate high-quality environment creation and character integration using industry-standard tools.",
     features: [
       "Environment creation using Quixel Megascans",
@@ -152,7 +152,7 @@ export const projectsData: Project[] = [
     title: "Desert Love",
     description: "Immersive cultural metaverse environment celebrating Odia heritage with AI-enhanced procedural generation",
     category: "Environment",
-    imageUrl: "/projects/odia-metaverse.jpg",
+    imageUrl: "projects/odia-metaverse.jpg",
     details: "Built with extreme historical fidelity, this metaverse platform allows users to explore virtualized reconstructions of the Konark Sun Temple and other key cultural sites of Odisha. The challenge was maintaining cinematic visual fidelity inside an optimized, low-draw-call environment suitable for mobile VR headsets and web browser players alike.",
     features: [
       "Real-time dynamic light mapping & atmospheric fog cycles",
@@ -170,7 +170,7 @@ export const projectsData: Project[] = [
     title: "Lush Forest",
     description: "Advanced character modeling and texturing showcasing detailed facial features and realistic materials",
     category: "Environment",
-    imageUrl: "/projects/character-design.jpg",
+    imageUrl: "projects/character-design.jpg",
     details: "In-depth organic visual design and complex realistic body and facial rendering tests incorporating layered PBR maps, fine-tuned materials, and optimized polygon counts for standard game character pipelines.",
     features: [
       "High-fidelity skin shader pipelines with sub-surface scattering (SSS)",
@@ -188,7 +188,7 @@ export const projectsData: Project[] = [
     title: "Air Pods demo",
     description: "Stunning environment pieces demonstrating mastery of lighting, composition, and atmospheric effects",
     category: "Product Design",
-    imageUrl: "/projects/environment-portfolio.png",
+    imageUrl: "projects/environment-portfolio.png",
     details: "A collection of high-fidelity scenes depicting lush wilderness and realistic lighting, focusing on procedural foliage distribution, atmospheric depth, and advanced material blending inside Unreal Engine.",
     features: [
       "Full lighting studies with real-time Lumen global illumination",
@@ -206,7 +206,7 @@ export const projectsData: Project[] = [
     title: "Architectural Visualization",
     description: "Photorealistic architectural renders showcasing advanced lighting and material techniques",
     category: "Visualization",
-    imageUrl: "/projects/architectural-visualization.jpg",
+    imageUrl: "projects/architectural-visualization.jpg",
     details: "Crafted photorealistic interior bakes showcasing premium architectural finishes and precise symmetric balance, designed specifically for high-end luxury portfolios.",
     features: [
       "High-fidelity interior raytraced shadows and soft studio light bakes",
@@ -224,7 +224,7 @@ export const projectsData: Project[] = [
     title: "Game Asset Creation",
     description: "High-quality game assets optimized for real-time rendering with detailed texturing workflows",
     category: "Game Art",
-    imageUrl: "/projects/game-asset-creation.jpg",
+    imageUrl: "projects/game-asset-creation.jpg",
     details: "High-precision poly-budget hard-surface asset modeling containing custom details with baked maps, realistic materials, and direct compatibility checks with active game engine project guidelines.",
     features: [
       "Realtime model poly-budget optimization under strict limits",
@@ -242,7 +242,7 @@ export const projectsData: Project[] = [
     title: "Product Visualization",
     description: "Commercial product renders with studio lighting and premium material presentation",
     category: "Product Design",
-    imageUrl: "/projects/product-visualization.jpg",
+    imageUrl: "projects/product-visualization.jpg",
     details: "Sophisticated commercial product placement and rendering studies centering premium tech products with studio light arrays and accurate glass index refractions.",
     features: [
       "Studio lighting structures using three-point lighting principles",
@@ -260,7 +260,7 @@ export const projectsData: Project[] = [
     title: "Concept Art & Design",
     description: "Creative concept art pieces demonstrating ideation and visual development skills",
     category: "Concept Art",
-    imageUrl: "/projects/concept-art-design.jpg",
+    imageUrl: "projects/concept-art-design.jpg",
     details: "Explorative world-building compositions featuring expressive brush strokes, environment depth layering, and perspective guide templates for subsequent production pipelines.",
     features: [
       "Expressive digital speed painting techniques and brush structures",
@@ -278,7 +278,7 @@ export const projectsData: Project[] = [
     title: "Update Soon...!",
     description: "New exciting projects are in development. Stay tuned for amazing upcoming work showcasing the latest in AI-enhanced 3D artistry and innovative design solutions.",
     category: "Coming Soon",
-    imageUrl: "/projects/coming-soon.jpg",
+    imageUrl: "projects/coming-soon.jpg",
     details: "Multiple research and development pieces exploring modern AI neural networks, ComfyUI stable diffusion custom LoRA models, dynamic game-engine pipelines, and next-generation real-time interactive tools.",
     features: [
       "Explorative study work integrating ComfyUI & custom trained LoRAs",
