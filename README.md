@@ -132,7 +132,10 @@ Here is a comprehensive record of key projects reflecting different specialized 
 ---
 
 ## � License
-This project is licensed under the [MIT License](./LICENSE).
+Copyright (c) 2026 Kiran Kumar K.
+
+All rights reserved. No reuse, modification, or distribution is permitted
+without prior written consent from the copyright owner.
 
 ---
 
